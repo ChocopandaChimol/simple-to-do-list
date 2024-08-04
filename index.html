@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Tugas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="todo-container">
+        <div id="header">
+            <h1>Daftar Tugas</h1>
+        </div>
+        <div id="todo-form">
+            <input type="text" class="input-item" name="input_box" id="input-box" placeholder="Tambahkan Tugas" />
+            <button id="input-button" onclick="addTask()">Tambah</button>
+            <select id="filter">
+                <option value="all">Semua</option>
+                <option value="completed">Selesai</option>
+                <option value="uncompleted">Belum Selesai</option>
+            </select>
+        </div>
+        <h2>Daftar Tugas</h2>
+        <ul id="list-container"></ul>
+        <hr />
+        <div class="counter-container">
+            <div id="task-counters">
+                Selesai: <span id="completed-counter">0</span> |
+                Belum Selesai: <span id="uncompleted-counter">0</span>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
