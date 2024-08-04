@@ -1,4 +1,4 @@
-\* {
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -19,7 +19,7 @@ body {
 #todo-container {
     width: 100%;
     max-width: 600px;
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 0.8); 
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -152,7 +152,6 @@ span {
     font-weight: bold;
 }
 
-
 @media (max-width: 599px) {
     #input-box,
     #input-button,
@@ -164,7 +163,6 @@ span {
         flex-direction: column;
     }
 }
-
 
 @media (min-width: 600px) {
     #todo-form {
